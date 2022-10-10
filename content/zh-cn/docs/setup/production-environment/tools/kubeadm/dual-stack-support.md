@@ -55,6 +55,8 @@ Services that you are planning to run.
 从 `2000::/3` 中选择一个全局的单播地址块。你不需要将集群的 IP 地址范围路由
 到公众互联网。
 
+IP地址分配的大小应该与您计划运行的Pods和Services的数量相适应。
+
 {{< note >}}
 <!--
 If you are upgrading an existing cluster with the `kubeadm upgrade` command,
